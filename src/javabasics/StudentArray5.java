@@ -36,6 +36,7 @@ public static void main(String[] args){
         }
         for(Student stud:arr){
             System.out.println(stud.name+" : "+stud.marks);
+            System.out.println(stud.rolno+" : "+stud.name);
         }
 }
 }
