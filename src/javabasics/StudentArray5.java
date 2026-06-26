@@ -34,5 +34,8 @@ public static void main(String[] args){
             System.out.println(arr[i].name+"  "+arr[i].marks);
 
         }
+        for(Student stud:arr){
+            System.out.println(stud.name+" : "+stud.marks);
+        }
 }
 }
