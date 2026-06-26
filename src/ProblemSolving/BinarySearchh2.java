@@ -1,6 +1,6 @@
 package ProblemSolving;
 
-public class BinarySearchh {
+public class BinarySearchh2 {
     static void search(int arr[], int key) {
         int left = 0;
         int right = (arr.length) - 1;

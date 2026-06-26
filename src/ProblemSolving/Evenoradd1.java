@@ -1,6 +1,6 @@
 package ProblemSolving;
 
-public class Evenoradd {
+public class Evenoradd1 {
     public static boolean evenoradd(int num){
         if(num%2==0) {
             return true;

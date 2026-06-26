@@ -1,6 +1,6 @@
 package ProblemSolving;
 
-public class Findmaxmin {
+public class Findmaxmin3 {
     static void maxmin(int[] arr){
         if(arr.length==0){
             System.out.println("the array was empty");

@@ -1,7 +1,7 @@
 package javabasics;
 
 
-public class Jaggedarray3 {
+public class Jaggedarray4 {
     public static void main(String[] args) {
 
         int[][] arr = new int[3][];
