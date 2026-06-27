@@ -9,5 +9,7 @@ public class StringBuffer6 {
         System.out.println(sb);
         String str=sb.toString();
         System.out.println(str);
+        sb.deleteCharAt(1);
+
     }
 }
