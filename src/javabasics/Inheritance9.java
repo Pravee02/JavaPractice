@@ -5,6 +5,14 @@ package javabasics;
 
         String color = "blue";
 
+
+
+        Keyboard() {
+            System.out.println("Keyboard printing");
+
+        }
+
+
         public void hitnum(){
             System.out.println("hit number");
         }
@@ -13,6 +21,14 @@ package javabasics;
         }
     }
     class AdvKeyboard extends Keyboard{
+
+
+    AdvKeyboard() {
+        //super();
+        System.out.println("key 1");
+    }
+
+
         public void throwit(){
             super.hitnum();
             System.out.println(keys);
@@ -20,12 +36,14 @@ package javabasics;
         }
     }
 
+
    public class Inheritance9{
         public static void main(String args[]){
 
 
             AdvKeyboard key1=new AdvKeyboard();
             key1.throwit();
+            key1.hitnum();
 
 
         }
