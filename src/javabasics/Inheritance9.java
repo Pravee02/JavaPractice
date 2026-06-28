@@ -1,39 +1,54 @@
 package javabasics;
 
     class Keyboard{
-        int keys = 100;
-
-        String color = "blue";
-
-
+//        int keys = 100;
+//        String color = "blue";
+//
 
         Keyboard() {
             System.out.println("Keyboard printing");
 
         }
+        Keyboard(int n) {
+            System.out.println("Keyboard printing int");
+
+        }
 
 
-        public void hitnum(){
-            System.out.println("hit number");
-        }
-        public void pressed(){
-            System.out.println("key pressed");
-        }
+
+//        public void hitnum(){
+//            System.out.println("hit number");
+//        }
+//        public void pressed(){
+//            System.out.println("key pressed");
+//        }
     }
+
+
     class AdvKeyboard extends Keyboard{
 
 
-    AdvKeyboard() {
-        //super();
-        System.out.println("key 1");
+       AdvKeyboard() {
+        super();
+
+        System.out.println("advkey ");
     }
+        AdvKeyboard(int n) {
 
+           //this();
+            super(n);
 
-        public void throwit(){
-            super.hitnum();
-            System.out.println(keys);
-            System.out.println("got it");
+            System.out.println("advkey 1");
         }
+
+
+
+
+//        public void throwit(){
+//            super.hitnum();
+//            System.out.println(keys);
+//            System.out.println("got it");
+//        }
     }
 
 
@@ -42,8 +57,7 @@ package javabasics;
 
 
             AdvKeyboard key1=new AdvKeyboard();
-            key1.throwit();
-            key1.hitnum();
+
 
 
         }
