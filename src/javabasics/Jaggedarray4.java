@@ -2,6 +2,9 @@ package javabasics;
 
 
 public class Jaggedarray4 {
+    public static void display(){
+        System.out.println("example for packages");
+    }
     public static void main(String[] args) {
 
         int[][] arr = new int[3][];

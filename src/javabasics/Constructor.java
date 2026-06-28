@@ -1,6 +1,6 @@
 package javabasics;
 
-class Person{
+ class Person{
     String name;
     int age;
     Person(String name,int age){
