@@ -1,9 +1,9 @@
 package javabasics;
 
     class Keyboard{
-//        int keys = 100;
-//        String color = "blue";
-//
+        int keys = 100;
+        String color = "blue";
+
 
         Keyboard() {
             System.out.println("Keyboard printing");
@@ -16,12 +16,12 @@ package javabasics;
 
 
 
-//        public void hitnum(){
-//            System.out.println("hit number");
-//        }
-//        public void pressed(){
-//            System.out.println("key pressed");
-//        }
+        public void hitnum(){
+            System.out.println("hit number");
+        }
+        public void pressed(){
+            System.out.println("key pressed");
+        }
     }
 
 
@@ -44,11 +44,11 @@ package javabasics;
 
 
 
-//        public void throwit(){
-//            super.hitnum();
-//            System.out.println(keys);
-//            System.out.println("got it");
-//        }
+        public void throwit(){
+            super.hitnum();
+            System.out.println(keys);
+            System.out.println("got it");
+        }
     }
 
 
