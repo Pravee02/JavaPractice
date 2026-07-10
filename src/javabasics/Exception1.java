@@ -19,7 +19,7 @@ public class Exception1 {
             }
             catch(ArithmeticException  e)
             {
-                j=10/5;
+                j=10/5; // this is handle exception
                 //System.out.println("cannot divisible by 0");
             }
 
